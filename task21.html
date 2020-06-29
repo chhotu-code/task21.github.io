@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>atask21</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<style type="text/css">
+		.fas{
+			font-size: 70px;
+			color: white;
+			margin-top: 100px;
+		}
+		.a{
+			width: 400px;
+			height: 50px;
+			font-size: 30px;
+			color: white;
+			margin-top: 10px;
+			background: blue;
+			margin-left: -100px;
+			position: absolute;
+		}
+	     .for{
+	     	color: white;
+	     	font-size: 30px;
+	     	position: absolute;
+	     	margin-left: 10px;
+	     	text-transform: uppercase;
+	     }
+
+		.flip-card1 {
+			background: transparent;
+			width: 400px;
+			height: 300px;
+			margin-right: 950px;
+            background: brown;
+		}
+		.flip-card-inner1 {
+			width: 100%;
+			height: 100%;
+			box-shadow: 2px 5px 8px 2px;
+			position: relative;
+			transition: transform 0.9s;
+			transform-style: preserve-3d;
+		}
+		
+	/*///////////////////////////////////////////////////////////////////////////*/
+		.flip-card2 {
+			background: transparent;
+			width: 400px;
+			height: 300px;
+			margin-top: 50px;
+			margin-right: 950px;
+		}
+		.flip-card-inner2 {
+			width: 100%;
+			height: 100%;
+			box-shadow: 2px 5px 8px 2px;
+			position: relative;
+			transition: transform 0.9s;
+			transform-style: preserve-3d;
+		}
+		
+		
+		.flip-card-front2, .flip-card-back2 {
+         position: absolute;
+         height: 300px;
+         width: 400px;
+         
+         }
+		.flip-card-front2 {
+			
+		}
+		.b{
+			margin-top: 0px;
+			height: 300px;
+			color: red;
+			width: 400px;
+			background: blue;
+			opacity: 0.8;
+		}
+		.flip-card2:hover .flip-card-inner2 {
+			transform: rotateY(180deg);
+		}
+		.flip-card-back2 {
+            
+             transform: rotateY(180deg);
+             color: white;
+             
+            }
+        button{
+        	margin-top: -70px;
+            margin-left: -100px;
+            height: 40px;
+            width: 200px;
+            font-size: 25px;
+            position: absolute;
+        }
+        h2{
+        	color: white;
+        	position: absolute;
+        	margin-top: -200px;
+        	margin-left: 70px;
+        }
+        .sec{
+        	font-size: 22px;
+        	color: blue;
+        	position: absolute;
+        	margin-top: -300px;
+        }
+        /*///////////////////////////////////////////////////////////////////////////////////*/
+        .flip-card3 {
+			background: transparent;
+			width: 400px;
+			height: 300px;
+			margin-top: -650px;
+		}
+		.flip-card-inner3 {
+			width: 100%;
+			height: 100%;
+			box-shadow: 2px 5px 8px 2px;
+			position: relative;
+			transition: transform 0.9s;
+			transform-style: preserve-3d;
+		}
+		.flip-card3:hover .flip-card-inner3 {
+			transform: rotateY(180deg);
+		}
+		.flip-card-back3 {
+            background-color: red;
+             transform: rotateY(180deg);
+             color: white;
+             
+            }
+		.flip-card-front3, .flip-card-back3 {
+         position: absolute;
+         height: 300px;
+         width: 400px;
+         backface-visibility: hidden;
+         }
+		.flip-card-front3 {
+			background: gray;
+			color: black;
+		}
+		.k{
+			margin-top: 230px;
+			width: 200px;
+			height: 40px;
+			font-size: 25px; 
+			position: absolute;
+		}
+		.p{
+            color: white;
+            position: absolute;
+            margin-left: 50px;
+		}
+		h3{
+			margin-top: -300px;
+			position: absolute;
+			background: red;
+			font-size: 50px;
+		}
+		/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+		.flip-card4 {
+			background: transparent;
+			width: 400px;
+			height: 300px;
+			margin-top: 50px;
+		}
+		.flip-card-inner4 {
+			width: 100%;
+			height: 100%;
+			box-shadow: 2px 5px 8px 2px;
+			position: relative;
+			transition: transform 0.9s;
+			transform-style: preserve-3d;
+		}
+		
+		
+		.flip-card-front4, .flip-card-back4 {
+         position: absolute;
+         height: 300px;
+         width: 400px;
+         backface-visibility: hidden;
+         }
+		.flip-card-front4 {
+			background: gray;
+			color: black;
+		}
+		.ne{
+			width: 400px;
+			height: 300px;
+			
+			position: absolute;
+			margin-top:-303px;
+		}
+		.abc{
+			width: 150px;
+			height: 50px;
+			margin-left: 250px;
+			background: blue;
+			color: yellow;
+			margin-top: -5px;
+     		}
+     		p{
+			color: yellow;
+			margin-top: -20px;
+			position: absolute;
+			font-size: 21px;
+		}
+		/*///////////////////////////////////////////////////////*/
+		.flip-card5 {
+			background: transparent;
+			width: 400px;
+			height: 700px;
+			margin-top: -650px;
+			margin-left: 950px;
+		}
+		.flip-card-inner5 {
+			width: 100%;
+			height: 100%;
+			box-shadow: 2px 5px 8px 2px;
+			position: relative;
+			transition: transform 0.9s;
+			transform-style: preserve-3d;
+		}
+		.flip-card5:hover .flip-card-inner5 {
+			transform: rotateY(180deg);
+		}
+		.flip-card-back5 {
+            background-color: red;
+             transform: rotateY(180deg);
+             color: white;
+             
+            }
+		.flip-card-front5, .flip-card-back5 {
+         position: absolute;
+         height: 700px;
+         width: 400px;
+         backface-visibility: hidden;
+         }
+		.flip-card-front5 {
+			background: gray;
+			color: black;
+		}
+		.q{
+			position: absolute;
+			margin-top: 0px;
+			color: white;
+			font-size: 22px;
+		}
+		
+		.d{
+			margin-top: 650px;
+			margin-left: -300px;
+		}
+		.e{
+			margin-top: 50px;
+			margin-left: -200px;
+		}
+		.sa{
+			position: absolute;
+			font-size: 25px;
+			color: black;
+			margin-top: -700px;
+		}
+		span{
+			color: blue;
+			font-size: 30px;
+		}
+</style>
+</head>
+<body>
+<center>
+      <div class="flip-card1">
+      	<div class="flip-card-inner1">
+      		<div class="flip-card-front1">
+      			<h1 class="a">chhotu kumar</h1>
+      			<i class="fas fa-envelope"></i>
+      			<h1 class="for">thanku for khabai tech</p>
+      		</div>
+      		<div class="flip-card-back1">
+      			
+      		</div>
+      	</div>
+      </div>
+      <div class="flip-card2">
+      	<div class="flip-card-inner2">
+      		<div class="flip-card-front2">
+      		       <img src="IMG-20200329-WA0001.jpg"alt="20200329-WA0001" style="width: 400px; height: 300px;"><h1 class="sec">Khabai Tech started with 4 learners is now a community of 100+ learners, interns, developers, testers, designers, analyzers, team leaders,<br><br><br><br> marketers, speakers, Chapter leaders, College Ambassadors, managers, mentors, startup founders, host, & others.
+                	We stand Stronger
+					#khabaitec</h1>
+      				</div>
+      		<div class="flip-card-back2">
+      			<h1 class="b"><img src="IMG_20200216_124538_333.jpg" style="border-radius: 100%;height: 100px;width: 100px;">
+      			<h2> CHHOTU KUMAR <br>i am software developer <br>we love you all</h2>
+      			<button>click me!</button>
+      			
+      		</div>
+      	</div>
+      </div>
+      <div class="flip-card3">
+      	<div class="flip-card-inner3">
+      		<div class="flip-card-front3">
+      		       <img src="IMG-20200329-WA0001.jpg"alt="20200329-WA0001" style="width: 400px; height: 300px;">
+      			<h3>over</h3>
+      		
+      		</div>
+      		<div class="flip-card-back3">
+      			
+      			<h1 class="p">CHHOTU KUMAR<br>
+      			i am software developer<br>
+      			i love u</h1>
+      			<button class="k">Load this picture</button>
+      		</div>
+      	</div>
+      </div>
+       <div class="flip-card4">
+      	<div class="flip-card-inner4">
+      		<div class="flip-card-front4">
+      			<img src="IMG-20200329-WA0001.jpg"alt="20200329-WA0001" style="width: 400px; height: 300px;">
+      			<div class="ne">
+      			<h1 class="abc">over</h1>
+      		 <p>We at Khabai Tech always believe in fostering innovation,<br><br><br><br> a group of expert data analyst are working to build machine learning modules to increase efficiency of your services.  are expert in Google Assistant applications along with Google Cloud, AWS, and Microsoft Azure.</p></div>
+      		</div>
+      		<div class="flip-card-back4">
+      			
+      		</div>
+      	</div>
+      </div>
+       <div class="flip-card5">
+      	<div class="flip-card-inner5">
+      		<div class="flip-card-front5">
+      		       <img src="IMG-20200329-WA0001.jpg"alt="20200329-WA0001" style="width: 400px; height: 700px;">
+      		       <h1 class="sa">प्रातः का विपरीत इनका नाम ,
+							2nd boss समझकर सब करते इनका काम ,
+							Ideal person है इनके Abdul Kalam,
+							किसी को भी डाट देना इनके लिए है आम ,
+							<span>Khabai Tech</span> की है सबसे मंझी हुई खिलाड़ी,
+							GirlScript में भी झंडा लहराया,<br><br><br><br><br><br><br> गर्व से कहकर -"हम है Bihari"
+							जो भी project लेती है , उसमे देती पूरा योगदान ,
+							और लापरवाही करने वाले को कर देती है - पहले ही सावधान,
+							अब आपलोग मत बनो इतने अनजान ,
+							जल्दी जल्दी बताओ किसकी है ये सारी पहचान???????</h1>
+                       
+                        <button class="d">Load this picture</button>
+      				</div>
+
+      		<div class="flip-card-back5">
+      			
+      			<h1 class="q"> I’m chhotu and I belong to daudnagar chakgadho.<br> Regarding my academic qualification, I’m pursuing BCA from J L college hajipur. Now about my professional qualification, I have done intermediate
+and I’m lear webdesigne at khabai tech.<br> Regarding my strengths and weakness, my strengths
+are: I’m confident, hardworking and a quick learner and my weaknesses are: I’m shy,
+emotional and credulous.<br> My hobbies are: I’m fond of listening musics, reading books
+and playing cricket game.<br> The aim of my life is to be a software developer.
+Regarding my family background,<br>
+my father’s name is Mr. Bhola sah and he is a farmer and my mother’s name is
+ usha devi and she is a housewife.<br> I have  five siblings with two brothers
+and three sisters. This is all about my introduction.
+ Thank You
+      			<button class="e">Load this picture</button>
+      			
+      		</div>
+      	</div>
+      </div>
+</center>
+</body>
+</html>
+
+
+
